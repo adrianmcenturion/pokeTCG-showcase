@@ -49,6 +49,7 @@ const CardDetails = ({ isOpen, closeModal, card }: CardDetailsProps) => {
                           fill
                           priority
                           className="object-contain"
+                          sizes="(max-width: 375px) 50vw, (max-width: 1200px) 25vw"
                         />
                       </div>
                       <div className="flex-1 flex flex-col gap-6 w-[280px] self-stretch xl:w-[490px] xl:h-[680px] bg-pattern bg-cover p-4">
